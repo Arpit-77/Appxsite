@@ -1,0 +1,85 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* .row {
+    margin-right: -15px;
+    margin-left: -15px;
+} */
+
+.about_title_des
+    {
+        
+        font-weight: 500;
+        color: #1a1a1a;
+        margin-top: 20px;/* margin: 0;
+        padding: 0;
+        font-size: large; */
+        /* -webkit-font-smoothing: antialiased;
+        -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+        text-shadow: rgb(0 0 0 / 1%) 0 0 1px; */
+    }
+
+.check {
+    margin-right: 15px;
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+}
+.about_title_des[_ngcontent-fpn-c9] {
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-top: 20px;
+}
+div {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgb(0 0 0 / 1%) 0 0 1px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #a5a5a5;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
