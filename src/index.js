@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route,Switch  } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Include CSS file
 //import './index.css';
@@ -25,7 +25,7 @@ ReactDOM.render(
     <Router>
       <Header />
      
-      <Switch>
+      <Routes>
         <Route path="/aboutus" exact component={About} /> 
         <Route path="/contactus" exact component={contact} /> 
         <Route path="/courses" component={courses} /> 
@@ -34,7 +34,7 @@ ReactDOM.render(
         <Route path="/news" component={news} /> 
         <Route path="/"  element={<Home/>} />
         <Route path="/element" component={element} />             
-      </Switch> 
+      </Routes> 
       <Footer />
     </Router>
   </React.StrictMode>,
